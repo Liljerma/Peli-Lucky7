@@ -24,7 +24,7 @@ public class App {
             break;
         }
         heitto++;
-        raha--; 
+        raha-=2; 
 
         for (int i = 0; i < 3; i++) {
         int arvonta = r.nextInt(10)+1;
