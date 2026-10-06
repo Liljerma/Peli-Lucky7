@@ -10,9 +10,10 @@ public class App {
         String uudestaan; 
         int heitto = 0;
 
-    
+    System.out.println("****************************");
     System.out.println("Pelataan peliä Lucky7!");
     System.out.println("Saldo tällä hetkellä " + raha + " euroa");
+    System.out.println("****************************");
     System.out.println("  ");
     System.out.println("Heitä noppaa enter näppäimellä!");
     
@@ -37,6 +38,7 @@ public class App {
                 } 
         }
         System.out.println("Heittojesi määrä on " + heitto);
+        System.out.println("****************************");
         System.out.println("Haluatko pelata uudestaan?");
         uudestaan = in.nextLine();
         } while (uudestaan.equalsIgnoreCase("k"));
